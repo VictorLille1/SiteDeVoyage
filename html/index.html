@@ -24,13 +24,15 @@
 
             <div class="boutons">
 
-                <a href="http://127.0.0.1:5500/html/index.html"><input type="button" value="Mon agence"></a>
+                <a class="boutonHeader" href="#">Mon agence</a>
+                <a class="boutonHeader" href="#">Se connecter</a>
 
-                <a href="#"><input type="button" value="Mon compte"></a>
 
             </div>
 
         </div>
+
+        <hr id="middleHrHeader">
 
         <nav class="navbar">
 
@@ -108,24 +110,31 @@
 
     <footer>
 
+        <p id="textFooter">Trouvez votre destination rapidement, et profitez !</p>
+
         <div class="footerElements">
 
             <div class="reseaux">
 
-                <h3>Rejoignez-nous sur les réseaux</h3>
-                <img src="/images/facebook.svg" alt="facebook">
-                <img src="/images/instagram.svg" alt="instagram">
-                <img src="/images/twitter.svg" alt="twitter">
-
+                <h3 id="titleReseauxDiv">Rejoignez-nous sur les réseaux</h3>
+                <a href="https://www.facebook.com/help">
+                    <img class="iconRes" src="/images/facebook.svg" alt="facebook">
+                </a>
+                <a href="https://help.instagram.com/?locale=fr_FR">
+                    <img class="iconRes" src="/images/instagram.svg" alt="instagram">
+                </a>
+                <a href="https://help.twitter.com/fr">
+                    <img class="iconRes" src="/images/twitter.svg" alt="twitter">
+                </a>
             </div>
 
             <div class="contacts">
                 <h3>Contactez-nous</h3>
                 <div class="contactUsContent">
-                <p>Numéro de téléphone : <strong>+33 3 00 00 00 00 00</strong></p>
-                <p>Mail: <strong>JoliesDestinations@gmail.com</strong></p>
-                <label for="comments">Vous avez une question ? Laissez-nous un commentaire:</label> <br>
-            </div>
+                    <p>Numéro de téléphone : <strong>+33 3 00 00 00 00 00</strong></p>
+                    <p>Mail: <strong>JoliesDestinations@gmail.com</strong></p>
+                    <label for="comments">Vous avez une question ? Laissez-nous un commentaire:</label> <br>
+                </div>
                 <textarea name="comments" id="comments" cols="30" rows="10"
                     placeholder="Ecrivez votre commentaire ici..."></textarea> <br>
                 <label for="submit"></label>

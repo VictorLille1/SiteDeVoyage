@@ -5,6 +5,7 @@ header {
     border-radius: 5px;
 }
 
+
 h1 {
     color: #F7F6CF;
     width: 50%;
@@ -42,9 +43,26 @@ input {
     /* margin: 30px 30px 30px 15px; */
 }
 
+.boutonHeader {
+    border: solid 2px #F7F6CF;
+    border-radius: 5px;
+    padding: 15px;
+    color: #F7F6CF;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+#middleHrHeader {
+    border: npne;
+    height: 1px;
+    background-color: #F7F6CF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 body {
-    background-color: #f4cfdf;
+    background-color: white;
 }
 
 
@@ -85,8 +103,8 @@ a {
 
 .pictVacances {
     height: 400px;
-    width: 400px;
-    border: 1px solid ;
+    width: 750px;
+    border: 1px solid;
 }
 
 .imgBody {
@@ -102,44 +120,46 @@ h2 {
 }
 
 hr {
-    color:  #B6D8F2;
+    border: none;
+    height: 3px;
+    background-color: #B6D8F2;
 }
 
-footer{
+footer {
     background-color: #5784BA;
     border-radius: 5px;
 }
 
-.footerElements{
+.footerElements {
     display: flex;
     justify-content: space-between;
 }
 
-.reseaux{
+.reseaux {
     width: 50%;
     text-align: center;
 }
 
-.contacts{
+.contacts {
     width: 50%;
     text-align: center;
     padding-bottom: 10px;
 }
 
-.contactUsContent{
+.contactUsContent {
     padding-left: 250px;
     text-align: justify;
 }
 
-textarea{
-   margin-top: 10px;
-margin-bottom: 10px;
-background-color: #F7F6CF;
-font-size: 12px;
-font-family: 'Courier New', Courier, monospace;
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7F6CF;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#btnSubmit{
+#btnSubmit {
     color: #F7F6CF;
     background-color: #5784BA;
     border: solid 1px #F7F6CF;
@@ -147,4 +167,38 @@ font-family: 'Courier New', Courier, monospace;
     margin-right: 15px;
     height: 50px;
     border-radius: 5px;
+}
+
+#textFooter {
+    background-color: #F7F6CF;
+    color: #5784BA;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.iconRes {
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: column;
+}
+
+#titleReseauxDiv {
+    margin-bottom: 50px;
+}
+
+.btnHeaderElts {
+    background-color: #5784BA;
+    border-radius: 5px;
+    border-color: #F7F6CF;
+    color: #F7F6CF;
+    height: 50px;
+    margin-right: 40px;
 }

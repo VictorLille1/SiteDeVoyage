@@ -6,7 +6,7 @@ body {
 #formStyle {
     width: 20%;
     margin: auto;
-    margin-top: 170px;
+    margin-top: 135px;
     border: none;
     border-radius: 10px;
     background-color: #00353F;
@@ -35,4 +35,25 @@ label {
 #forgetPassword {
     text-decoration: none;
     color: grey;
+}
+
+header{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#btnBackHome{
+    background-color: #00353F;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#inscriptionInput{
+    color: white;
+    text-decoration: none;
 }

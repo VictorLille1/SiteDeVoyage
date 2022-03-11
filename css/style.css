@@ -1,13 +1,13 @@
 header {
     margin: 0;
     padding: 0;
-    background-color: #5784BA;
+    background-color:#00353F;
     border-radius: 5px;
 }
 
 
 h1 {
-    color: #F7F6CF;
+    color: white;
     width: 50%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,7 +25,7 @@ h1 {
     width: 120px;
     padding: 0;
     margin: 0;
-    background-color: #F7F6CF;
+    background-color: white;
     margin-top: 3px;
     margin-left: 3px;
     padding: auto;
@@ -33,9 +33,9 @@ h1 {
 }
 
 input {
-    color: #F7F6CF;
-    background-color: #5784BA;
-    border: solid 1px #F7F6CF;
+    color: white;
+    background-color: #00353F;
+    border: solid 1px white;
     margin-left: 40px;
     margin-right: 15px;
     height: 50px;
@@ -44,10 +44,10 @@ input {
 }
 
 .boutonHeader {
-    border: solid 2px #F7F6CF;
+    border: solid 2px white;
     border-radius: 5px;
     padding: 15px;
-    color: #F7F6CF;
+    color: white;
     text-transform: uppercase;
     margin-right: 20px;
 }
@@ -55,14 +55,14 @@ input {
 #middleHrHeader {
     border: npne;
     height: 1px;
-    background-color: #F7F6CF;
+    background-color: white;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 
 body {
-    background-color: white;
+    background-color: #08C5D1;
 }
 
 
@@ -103,7 +103,7 @@ a {
 
 .pictVacances {
     height: 400px;
-    width: 750px;
+    width: 700px;
     border: 1px solid;
 }
 
@@ -116,7 +116,7 @@ a {
 h2 {
     text-transform: uppercase;
     font-size: 20pt;
-    color: #5784BA;
+    color: #FFBF66;
 }
 
 hr {
@@ -126,7 +126,7 @@ hr {
 }
 
 footer {
-    background-color: #5784BA;
+    background-color: #00353F;
     border-radius: 5px;
 }
 
@@ -154,15 +154,15 @@ footer {
 textarea {
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #F7F6CF;
+    background-color: #FFBF66 ;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #btnSubmit {
-    color: #F7F6CF;
-    background-color: #5784BA;
-    border: solid 1px #F7F6CF;
+    color: white;
+    background-color: #00353F;
+    border: solid 1px white;
     margin-left: 40px;
     margin-right: 15px;
     height: 50px;
@@ -170,8 +170,8 @@ textarea {
 }
 
 #textFooter {
-    background-color: #F7F6CF;
-    color: #5784BA;
+    background-color: #FFBF66;
+    color: #00353F;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 20px;
@@ -180,10 +180,23 @@ textarea {
 
 }
 
+
+h3{
+    color: white;
+
+}
+
 .iconRes {
     height: 30px;
     margin-bottom: 30px;
+    
 }
+
+.textContactUsContent{
+    color:white;
+}
+
+
 
 .reseaux {
     display: flex;
@@ -195,10 +208,14 @@ textarea {
 }
 
 .btnHeaderElts {
-    background-color: #5784BA;
+    background-color: #00353F;
     border-radius: 5px;
-    border-color: #F7F6CF;
-    color: #F7F6CF;
+    border-color: white;
+    color: white;
     height: 50px;
     margin-right: 40px;
+}
+
+#labelComments{
+    color: white;
 }

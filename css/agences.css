@@ -1,0 +1,51 @@
+#btnBackHome{
+    background-color: #00353F;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+body {
+    background-color: #08C5D1;
+    text-align: center;
+}
+
+main{
+align-content: center;}
+
+.iframeMap{
+  margin: auto;
+ padding: 70px 0;
+
+}
+
+iframe{
+    border: 1px solid #00353F;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00353F;
+    color: white;
+}
+
+.titleHead{
+    margin: auto;
+    padding-left: 160px;
+}
+
+.contacts{
+    text-align: center;
+}
+
+.footerElements{
+
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #00353F;
+}

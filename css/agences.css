@@ -26,17 +26,6 @@ iframe{
     border: 1px solid #00353F;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #00353F;
-    color: white;
-}
-
-.titleHead{
-    margin: auto;
-    padding-left: 160px;
-}
 
 .contacts{
     text-align: center;

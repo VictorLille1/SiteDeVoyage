@@ -1,7 +1,7 @@
 header {
     margin: 0;
     padding: 0;
-    background-color:#00353F;
+    background-color: #00353F;
     border-radius: 5px;
 }
 
@@ -34,16 +34,6 @@ h1 {
     border-radius: 5px;
 }
 
-input {
-    color: white;
-    background-color: #00353F;
-    border: solid 1px white;
-    margin-left: 40px;
-    margin-right: 15px;
-    height: 50px;
-    border-radius: 5px;
-    /* margin: 30px 30px 30px 15px; */
-}
 
 .boutonHeader {
     border: solid 2px white;
@@ -54,22 +44,12 @@ input {
     margin-right: 20px;
 }
 
-#middleHrHeader {
-    border: none;
-    background-color: #FFBF66;
-    height: 3px;
-}
-
-
-body {
-    background-color: #08C5D1;
-}
 
 
 .dropdown {
     display: flex;
     justify-content: space-around;
-    color:#FFBF66;
+    color: #FFBF66;
 
 }
 
@@ -95,10 +75,60 @@ a {
     right: -50px;
 }
 
-.photo {
-    margin-top: 100px;
-    width: 50%;
-    text-align: center;
+#middleHrHeader {
+    border: none;
+    background-color: #FFBF66;
+    height: 3px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: #FFBF66;
+}
+
+.textDefile {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    transform:translateY(-50%);
+    margin-top: 80px;
+}
+
+.txt {
+    white-space: nowrap;
+    font-size: 200px;
+    animation: scrollTxt 15s linear infinite;
+
+}
+
+.def1 {
+    color: #430C05;
+}
+
+.def2 {
+    color: #430C05;
+}
+
+@keyframes scrollTxt {
+    0% {
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
+
+.separation {
+    width: 75%;
+    border: none;
+    background-color: #FFBF66;
+    height: 2px;
+}
+
+body {
+    background-color: #08C5D1;
 }
 
 .pictVacances {
@@ -107,22 +137,12 @@ a {
     border: 1px solid;
 }
 
-.imgBody {
+.destinations {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-size: 20pt;
-    color: #FFBF66;
-}
-
-hr {
-    border: none;
-    height: 3px;
-    background-color: #B6D8F2;
+    text-align: center;
+    padding-top: 180px;
 }
 
 footer {
@@ -154,7 +174,7 @@ footer {
 textarea {
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #FFBF66 ;
+    background-color: #FFBF66;
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -181,7 +201,7 @@ textarea {
 }
 
 
-h3{
+h3 {
     color: white;
 
 }
@@ -189,11 +209,11 @@ h3{
 .iconRes {
     height: 30px;
     margin-bottom: 30px;
-    
+
 }
 
-.textContactUsContent{
-    color:white;
+.textContactUsContent {
+    color: white;
 }
 
 
@@ -216,6 +236,6 @@ h3{
     margin-right: 40px;
 }
 
-#labelComments{
+#labelComments {
     color: white;
 }

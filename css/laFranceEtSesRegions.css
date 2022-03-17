@@ -87,14 +87,33 @@ a {
 
 
 
+.imgDest {
+    height: 700px;
+}
+
+.colorText {
+    color: white;
+}
+
+h5 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30pt;
+    text-align: start;
+    text-shadow: 2px 2px black;
+}
+
+.descriptionPict {
+    margin-bottom: 450px;
+    text-align: right;
+    margin-left: 500px;
 
 
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 22pt;
 
-
-
-
-
-
+}
 
 
 

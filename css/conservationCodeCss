@@ -1,0 +1,80 @@
+
+.lieuDestination {
+    /* ma class lieyDestination prendra 30% de la largeur relativement au parent (ici la div.conteneur) */
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 400px;
+    min-height: 300px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.lieuDestination:hover .image {
+    /* ici je dis que lors du passage de la souris sur la photo (hover), l'opacité de l'image doit passer de 1 à 0.3 */
+    opacity: 0.3;
+}
+
+.lieuDestination:hover .middle {
+    /* ici je dis que lors du passage de la souris sur la photo (hover), l'opacité de middle doit passer de 0 à 1 */
+    opacity: 1;
+}
+
+.text {
+    background-color: #847E8E;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+.infosDest {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textDuree {
+    text-transform: uppercase;
+
+}
+
+.nomDestSejour {
+    text-transform: uppercase;
+    background-color: #847E8E;
+    color: white;
+    text-align: center;
+}
+
+.textPrice {
+    text-transform: uppercase;
+}
+
+.prixIndication {
+    text-align: center;
+    background-color: #847E8E;
+    color: white;
+}
+
+.informationsDestinations {
+    text-transform: uppercase;
+    text-align: justify;
+    color: #171A25;
+}

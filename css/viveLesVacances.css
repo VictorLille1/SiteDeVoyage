@@ -67,6 +67,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: #F8F9FA;
 }
 
 .lieuDestination {
@@ -75,6 +76,8 @@ h2 {
     width: 300px;
     min-width: 300px;
     margin: 20px 40px;
+    padding: 5px;
+    border: 1px solid #154648;
     }
 
 .image {

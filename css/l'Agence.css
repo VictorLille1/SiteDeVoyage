@@ -1,0 +1,48 @@
+/* Style de la navbar */
+
+/* icones réseaux*/
+
+.navbar {
+    height: 150px;
+}
+
+.reseauxSite {
+    text-align: center;
+}
+
+.nav-item {
+    font-family: 'fira_sans_condensedregular';
+    font-size: larger;
+}
+
+
+/* texte qui défile */
+
+.defilementTexte {
+    display: flex;
+
+    /* cacher le texte qui dépasse */
+    overflow: hidden;
+    /* le texte doit parcourir toute la page */
+    width: 100%;
+    position: absolute;
+    background-color: #00fa9a;
+    color: white;
+   
+}
+
+.txt {
+    white-space: nowrap;
+    font-size: 150px;
+    animation: scrollTxt 15s linear infinite;
+}
+
+@keyframes scrollTxt {
+    0% {
+        transform: translate(0, O);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+}

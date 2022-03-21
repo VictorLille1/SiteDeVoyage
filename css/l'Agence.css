@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'fira_sans_condensedregular';
+    src: url('font/firasanscondensed-regular-webfont.woff2') format('woff2'),
+        url('font/') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /* Style de la navbar */
 
 /* icones réseaux*/
@@ -28,6 +38,7 @@
     position: absolute;
     background-color: #00fa9a;
     color: white;
+    margin-top: 20px;
    
 }
 
@@ -45,4 +56,100 @@
     100% {
         transform: translate(-100%, 0);
     }
+}
+
+body{
+    background-color: #F8F9FA;
+    font-family: 'fira_sans_condensedregular';
+}
+
+.firstPart{
+    display: flex;
+    margin-top: 250px;    
+}
+
+.firstPart img{
+    margin: 20px;
+    width: 40%;
+    height: auto;
+}
+
+.txtFirstPart{
+    margin: 20px;
+}
+
+
+
+.secondPart{
+    display: flex;
+    background-color: white;
+}
+
+.secondPart img{
+    margin: 20px;
+    width: 40%;
+    height: auto;
+}
+
+.txtSecondPart{
+   margin: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #00fa9a;
+}
+
+.txtIntroduce{
+    text-align: justify;
+    padding: 20px;
+}
+
+/* footer */
+
+footer {
+    padding: 10px 100px;
+    background-color: #3E4551;
+    color: white;
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: white;
+}
+
+.linkFooter:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#decorationFooter {
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+#footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+#reseaux {
+    text-align: center;
+}
+
+.titleFooterContent {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 16pt;
+}
+
+#cgvMentionsLegales {
+    text-align: center;
 }

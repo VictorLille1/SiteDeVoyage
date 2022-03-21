@@ -8,27 +8,6 @@
 }
 
 
-
-
-@font-face {
-    font-family: 'noto_sansregular';
-    src: url('font/notosans-regular-webfont.woff2') format('woff2'),
-        url('font/notosans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'alegreya_sansregular';
-    src: url('font/alegreyasans-regular-webfont.woff2') format('woff2'),
-        url('font/alegreyasans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* Style de la navbar */
 
 /* icones réseaux*/
@@ -140,19 +119,20 @@ h2 {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+   
 }
 
-.lieuDestination:hover .image {
+.containerImage:hover .image {
     /* ici je dis que lors du passage de la souris sur la photo (hover), l'opacité de l'image doit passer de 1 à 0.3 */
     opacity: 0.3;
 }
 
-.lieuDestination:hover .middle {
+.containerImage:hover .middle {
     /* ici je dis que lors du passage de la souris sur la photo (hover), l'opacité de middle doit passer de 0 à 1 */
     opacity: 1;
 }

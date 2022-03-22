@@ -38,8 +38,7 @@
     position: absolute;
     background-color: #00fa9a;
     color: white;
-    margin-top: 20px;
-   
+
 }
 
 .txt {
@@ -58,49 +57,71 @@
     }
 }
 
-body{
+/* bouton pour changer de couleur */
+
+.btnChangeColor {
+    margin-top: 250px;
+    height: 50px;
+    position: relative;
+}
+
+
+#button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #00fa9a;
+    color: white;
+    border-color: #00fa9a;
+}
+
+
+/* body */
+body {
     background-color: #F8F9FA;
     font-family: 'fira_sans_condensedregular';
 }
 
-.firstPart{
+.firstPart {
     display: flex;
-    margin-top: 250px;    
+    margin-top: 10px;
 }
 
-.firstPart img{
+.firstPart img {
     margin: 20px;
     width: 40%;
     height: auto;
 }
 
-.txtFirstPart{
+.txtFirstPart {
     margin: 20px;
 }
 
 
 
-.secondPart{
+.secondPart {
     display: flex;
     background-color: white;
 }
 
-.secondPart img{
+.secondPart img {
     margin: 20px;
     width: 40%;
     height: auto;
 }
 
-.txtSecondPart{
-   margin: 20px;
+.txtSecondPart {
+    margin: 20px;
 }
 
-h2{
+h2 {
     margin-bottom: 20px;
     color: #00fa9a;
 }
 
-.txtIntroduce{
+.txtIntroduce {
     text-align: justify;
     padding: 20px;
 }

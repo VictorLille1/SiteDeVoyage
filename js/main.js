@@ -15,7 +15,7 @@ function afficher() {
 
 
 // colors tableau
-let colors = ['red', 'yellow', 'green', 'blue', 'pink'];
+let colors = ['red', 'yellow', 'green', 'blue', 'pink', '#F8F9FA'];
 
 // bouton get
 let button = document.getElementById('button');

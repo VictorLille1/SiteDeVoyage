@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/contacts.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=""><img id="logoWeb" src="/images/023c2c3bd4534771b646f9474dc1c59d.svg"
+                        alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="conteneurNav">
+                    <div class="reseauxSite">
+                        <a class="iconReseaux" href="https://www.facebook.com/help"><img src="/images/fbIcon.png"
+                                alt="facebook page help"></a>
+                        <a class="iconReseaux" href="https://help.instagram.com/contact/163695614321277"><img
+                                id="instaIcon" src="/images/instaIcon.png" alt="instagram page help"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/html/l'Agence.html">L'agence</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <header>
+            <h1>Contacts et demande de devis</h1> <br>
+        </header>
+
+        <div class="containerContactsUs">
+
+            <div class="contactsUs">
+
+                <form action="#" id="formInformationClient">
+
+                    <h2>Demandez un devis ou contactez l'agence</h2>
+
+                    <hr style="border: none; height: 6px;">
+
+                    <p>Remplissez le formulaire et faites votre demande. Nous nous engageons à vous répondre dans les
+                        plus
+                        brefs délais.</p>
+
+                    <div class="container">
+
+                        <div class="informationClient">
+
+                            <div class="firstColumn">
+                                <label for="prenom">Prénom</label> <br>
+                                <input type="text" id="prenom" name="prenom"
+                                    placeholder="Saisissez votre prénom ici...">
+                                <br>
+                                <br>
+                                <label for="email">Email</label> <br>
+                                <input type="email" name="email" id="email" placeholder="Saisissez votre email ici...">
+                                <br><br>
+                                <label for="numTel">Numéro de téléphone</label> <br>
+                                <input type="tel" id="numTel" name="numTel"
+                                    placeholder="Saisissez votre numéro de téléphone">
+                                <br><br>
+
+                                <label for="dureeSejour">Durée du séjour</label> <br>
+                                <select name="dureeSejour" id="dureeSejour" n style="background-color:#00FA9A; border-radius: 5px; width: 100%; height: auto;">
+                                    <option value="jeNeSaisPas">Je ne sais pas</option>
+                                    <option value="3jours">3 jours</option>
+                                    <option value="4jours">4 jours</option>
+                                    <option value="5jours">5 jours</option>
+                                    <option value="6jours">6 jours</option>
+                                    <option value="7jours">7 jours</option>
+                                    <option value="8jours">8 jours</option>
+                                    <option value="9jours">9 jours</option>
+                                    <option value="10jours">10 jours</option>
+                                    <option value="11jours">11 jours</option>
+                                    <option value="12jours">12 jours</option>
+                                    <option value="13jours">13 jours</option>
+                                    <option value="14jours">14 jours</option>
+                                    <option value="15jours">15 jours</option>
+                                    <option value="16jours">16 jours</option>
+                                    <option value="17jours">17 jours</option>
+                                    <option value="18jours">18 jours</option>
+                                    <option value="19jours">19 jours</option>
+                                    <option value="20jours">20 jours</option>
+                                    <option value="21jours">21 jours</option>
+                                    <option value="22jours">22 jours</option>
+                                    <option value="23jours">23 jours</option>
+                                    <option value="24jours">24 jours</option>
+                                    <option value="25jours">25 jours</option>
+                                    <option value="26jours">26 jours</option>
+                                    <option value="27jours">27 jours</option>
+                                    <option value="28jours">28 jours</option>
+                                    <option value="29jours">29 jours</option>
+                                    <option value="30jours">30 jours</option>
+                                </select> <br><br>
+
+                            </div>
+
+
+                            <div class="secondColumn">
+                                <label for="nom">Nom</label> <br>
+                                <input type="text" id="nom" name="nom" placeholder="Saisissez votre nom ici...">
+                                <br><br>
+                                <label for="confirmEmail">Confirmez votre email</label> <br>
+                                <input type="email" name="confirmEmail" id="confirmEmail"
+                                    placeholder="Saisissez votre email ici..."> <br><br>
+                                <label for="budget">Votre budget (en €)</label> <br>
+                                <input type="text" id="budget" name="budget" placeholder="Saisissez votre budget ici">
+                                <br><br>
+                                <label for="dateSejour">Date de départ</label><br>
+                                <input type="date" name="dateSejour" id="dateSejour"><br><br>
+
+                            </div>
+                        </div>
+
+                        <textarea name="formInformationClient" id="formInformationClient" cols="30"
+                            rows="10">Ecrivez votre demande ici...</textarea> <br><br>
+
+                            <button id="btnSubmit" type="submit">Envoyer</button>
+
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="contactsAgence">
+
+                <h2>Contactez nous directement</h2>
+
+                <hr style="border: none; height: 6px;">
+
+                <p><strong>Jolies Destinations</strong></p> <br><br>
+                <p>Téléphone: <strong>+33 3 20 78 ** **</strong></p>
+                <p>Email: <strong>joliesDestinations@outlook.fr</strong></p> <br><br>
+
+                <p>128 rue du Coquelicot <br>59000 LILLE</p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div id="footerContent">
+
+            <div id="navigation">
+                <h3 class="titleFooterContent">Navigation</h3>
+                <ul>
+                    <li>
+                        <a class="linkFooter" href="/html/viveLesVacances.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a class="linkFooter" href="/html/">L'agence</a>
+                    </li>
+                    <li>
+                        <a class="linkFooter" href="/html/">Actualités</a>
+                    </li>
+                    <li>
+                        <a class="linkFooter" href="">Contacts</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="reseaux">
+
+                <h3 class="titleFooterContent">Nos réseaux:</h3>
+                <a class="iconReseaux" href="https://www.facebook.com/help"><img src="/images/fbIcon.png"
+                        alt="facebook page help"></a>
+                <a class="iconReseaux" href="https://help.instagram.com/contact/163695614321277"><img id="instaIcon"
+                        src="/images/instaIcon.png" alt="instagram page help"></a>
+
+            </div>
+
+            <div id="coordonnes">
+                <h3 class="titleFooterContent">Coordonnées</h3>
+
+                <p>120 Avenue de la Liberté</p>
+                <p>59000 LILLE</p>
+            </div>
+
+        </div>
+
+        <hr id="decorationFooter">
+
+        <div id="cgvMentionsLegales">
+
+            <p><a class="linkFooter" href="">Mentions légales</a> et <a class="linkFooter" href="">Conditions générales
+                    de vente</a></p>
+
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

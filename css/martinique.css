@@ -13,7 +13,7 @@
 /* icones réseaux*/
 
 .navbar {
-    height: 150px;
+    height: 22.6vh;
 }
 
 .reseauxSite {
@@ -25,112 +25,114 @@
     font-size: larger;
 }
 
-
-
-/* body */
+/* Body */
 
 body {
     font-family: 'fira_sans_condensedregular';
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
-h1 {
-    background-color: #00FA9A;
-    color: white;
-    text-align: center;
-    font-size: 20pt;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 90%;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-}
 
-h2 {
-    text-align: left;
-    font-size: 17pt;
-    color: #00FA9A;
-}
 
-.contactsUs {
+main {
     display: flex;
+}
+
+.descriptionDest {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
-form {
-    text-align: center;
-    padding: 10px;
+.descriptionDest img {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid black;
 }
 
-.informationClient {
-    display: flex;
-    justify-content: center;
+h1{
+font-size: 2em;
 }
 
-.firstColumn {
-    padding-right: 20px;
-    text-align: left;
+h2{
+    font-size: 1.5em;
+    color: #00fa9a;
 }
 
-.secondColumn {
-    padding-left: 20px;
-    text-align: left;
+h4{
+    font-size: 1.25em;
+    color: #00fa9a;
 }
 
-.informationClient input {
-    background-color: #00FA9A;
-    border-radius: 5px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
+.infoTrip{
+    text-align: justify;
 }
 
-.contactsAgence {
+
+.prixEtInfos {
     width: 30%;
-    margin: auto;
-    padding: 10px;
-    margin-top: 20px;
+    margin-left: auto;
+    background-color: #847E8E;
 }
 
-
-textarea {
+.prixEtInfos p {
+    color: white;
+    text-align: justify;
+    font-size: 1em;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
 }
 
-
-.containerContactsUs {
-    display: flex;
-}
-
-#btnSubmit{
-    background-color: #00FA9A;
-    color: white;
+.prixEtInfos hr {
     border: none;
-    border-radius: 5px;
-    padding: 10px;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
+#price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #00fa9a;
+    height: 1%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.btnRenvoi {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#btnDemandeDevis {
+    border-color: white;
+    background-color: #00fa9a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
 
 
 /* footer */
-
 footer {
     padding: 10px 100px;
     background-color: #3E4551;
     color: white;
-    margin-top: 20px;
 }
 
 .linkFooter {
